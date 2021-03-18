@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. Attribute</title>
+    <style>
+      a[target] {
+        background-color: yellow;
+      }
+      a[target="_blank"] {
+        background-color: red;
+      }
+
+      input[type="text"] {
+        width: 150px;
+        display: block;
+        margin-bottom: 10px;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#">Link without target</a> <br />
+    <a href="#" target="_blank">Link with target="_blank"</a> <br />
+    <a href="#" target="_self">Link with target="_self"</a>
+    <br />
+    <br />
+    <br />
+    Firstname:<input type="text" name="Name" value="Peter" size="20" />
+  </body>
+</html>

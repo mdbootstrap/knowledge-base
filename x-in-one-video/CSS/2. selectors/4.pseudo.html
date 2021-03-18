@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo</title>
+
+    <style>
+      /* unvisited link */
+      a:link {
+        color: #ff0000;
+      }
+
+      /* visited link */
+      a:visited {
+        color: #00ff00;
+      }
+
+      /* mouse over link */
+      a:hover {
+        color: #ff00ff;
+      }
+
+      /* selected link */
+      a:active {
+        color: #0000ff;
+      }
+
+      li:first-child {
+        background-color: yellow;
+      }
+
+      li:last-child {
+        background-color: blueviolet;
+      }
+
+      li:nth-child(5) {
+        background-color: red;
+      }
+
+      li:nth-child(n + 7) {
+        background-color: cadetblue;
+      }
+
+      li:nth-child(even) {
+        background-color: coral;
+      }
+
+      div::before {
+        content: "+";
+      }
+
+      div::after {
+        content: "after";
+      }
+    </style>
+  </head>
+  <body>
+    <a href="http://somepage.com">Somepage</a> <br />
+    <a href="http://somepage.com">Somepage</a> <br />
+    <a href="anotherpage.com">Another Page</a> <br />
+    <a href="yetanotherpage.com">Yet Another Page</a> <br />
+
+    <ol>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+      <li>Item</li>
+    </ol>
+
+    <div>Content</div>
+  </body>
+</html>

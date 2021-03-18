@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box model</title>
+    <style>
+      .example {
+        width: 200px;
+        height: 300px;
+        background-color: skyblue;
+        margin-top: 50px;
+        padding-left: 20px;
+        padding-top: 50px;
+        margin: 20px 30px;
+        border: 5px solid black;
+      }
+
+      .board {
+        width: 450px;
+        background-color: teal;
+      }
+
+      .box {
+        box-sizing: border-box;
+
+        width: 150px;
+        height: 150px;
+        background-color: #eee;
+        float: left;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="example">Example div</div>
+
+    <div class="board">
+      <div class="box">1</div>
+      <div class="box">2</div>
+      <div class="box">3</div>
+    </div>
+  </body>
+</html>

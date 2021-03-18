@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>5. Positioning</title>
+    <style>
+      .box {
+        width: 600px;
+        height: 500px;
+        border: 1px solid black;
+        margin: 100px auto;
+      }
+      h1 {
+        bottom: 20px;
+        right: 20px;
+        position: absolute;
+      }
+      h2 {
+        position: relative;
+        left: 50px;
+      }
+      .fixed {
+        position: fixed;
+        right: 0px;
+      }
+      .sticky {
+        position: sticky;
+        bottom: 0;
+        background-color: #eee;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>Hello</h1>
+      <h2>Bye</h2>
+    </div>
+
+    <button class="fixed">Click me</button>
+
+    <div class="sticky">I am sticky</div>
+  </body>
+</html>

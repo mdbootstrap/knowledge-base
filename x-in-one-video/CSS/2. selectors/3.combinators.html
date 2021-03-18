@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>combinators</title>
+    <style>
+      /* Descendant selector */
+      div p {
+        background-color: red;
+      }
+
+      /* Child selector  */
+      div.child > h2 {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>I am red.</p>
+      <p>I am red.</p>
+      <section><p>I am red.</p></section>
+    </div>
+
+    <div class="child">
+      <h2>Heading in the div</h2>
+      <h2>Heading in the div</h2>
+      <section><h2>Heading but not a child</h2></section>
+      <h2>Heading in the div</h2>
+    </div>
+  </body>
+</html>

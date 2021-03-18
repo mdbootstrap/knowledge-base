@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Tutorial</title>
+  </head>
+  <body>
+    <h1>BLOCK ELEMENTS</h1>
+
+    <h2>Paragraph:</h2>
+
+    <p>Here is a first paragraph of text.</p>
+    <p>Here is a second paragraph of text.</p>
+    <p>Here is a third paragraph of text.</p>
+
+    <h2>Horizontal line:</h2>
+
+    <hr />
+
+    <h2>Headings:</h2>
+
+    <h1>This is heading 1</h1>
+    <h2>This is heading 2</h2>
+    <h3>This is heading 3</h3>
+    <h4>This is heading 4</h4>
+    <h5>This is heading 5</h5>
+    <h6>This is heading 6</h6>
+
+    <hr />
+
+    <h2>Line Break Tag</h2>
+
+    <p>
+      It's kind difficult <br />
+      to make new line
+    </p>
+
+    <hr />
+
+    <div><p>Content</p></div>
+
+    <div style="width: 300px; height: 300px; background-color: red">
+      Outer
+      <div style="width: 100px; height: 100px; background-color: yellow">
+        Inner
+      </div>
+    </div>
+    <div style="width: 100px; height: 100px; background-color: blue">
+      Outside
+    </div>
+    <hr />
+    <h2>Semantic tags</h2>
+
+    <header></header>
+    <nav></nav>
+    <section></section>
+    <article></article>
+    <aside></aside>
+    <footer></footer>
+    <details></details>
+    <summary></summary>
+
+    <hr />
+
+    <h2>Blockquote</h2>
+    <p>A Great Motivational Quote:</p>
+    <blockquote cite="https://www.brainyquote.com/authors/erin_cummings">
+      <p>
+        At the end of the day, you are solely responsible for your success and
+        your failure. And the sooner you realize that, you accept that, and
+        integrate that into your work ethic, you will start being successful. As
+        long as you blame others for the reason you aren't where you want to be,
+        you will always be a failure.
+      </p>
+    </blockquote>
+    <cite>-Erin Cummings</cite>
+
+    <hr />
+    <h2>Preformatted</h2>
+
+    <pre>
+function(a,b) {
+    return a+b;
+}
+    </pre>
+
+    <hr />
+    <h2>Tables</h2>
+
+    <table border="1">
+      <tr>
+        <td>Row 1 - Column 1</td>
+        <td>Row 1 - Column 2</td>
+        <td>Row 1 - Column 3</td>
+      </tr>
+      <tr>
+        <td>Row 2 - Column 1</td>
+        <td>Row 2 - Column 2</td>
+        <td>Row 2 - Column 3</td>
+      </tr>
+    </table>
+    <br /><br />
+
+    <table border="1">
+      <tr>
+        <th>Column 1 Name</th>
+        <th>Column 2 Name</th>
+        <th>Column 3 Name</th>
+      </tr>
+      <tr>
+        <td>Row 1 - Column 1</td>
+        <td>Row 1 - Column 2</td>
+        <td>Row 1 - Column 3</td>
+      </tr>
+      <tr>
+        <td>Row 2 - Column 1</td>
+        <td>Row 2 - Column 2</td>
+        <td>Row 2 - Column 3</td>
+      </tr>
+    </table>
+
+    <h1>Inline Elements</h1>
+
+    <h2>Block vs inline</h2>
+
+    <p>Paragraph inside <span>paragraph</span></p>
+
+    <hr />
+
+    <h2>Typography</h2>
+
+    <p>
+      This is <b>bold</b>, <i>italic</i>, <u>underline</u>, <em>emphasized</em>,
+      <del>deleted</del>, <mark>marked</mark>
+    </p>
+
+    <hr />
+
+    <h2>Image</h2>
+
+    <img src="logo.png" alt="Company logo" />
+
+    <hr />
+
+    <h2>Anchor</h2>
+
+    <a href="http://google.com">Get me to the Google</a>
+
+    <br />
+    <a href="logo.png">Download logo</a>
+
+    <br />
+
+    <a href="https://mdbootstrap.com"
+      ><img
+        src="logo.png"
+        style="width: 300px; height: auto"
+        alt="This picture shows logo"
+    /></a>
+    <br />
+    <a href="https://mdbootstrap.com"><button>Click me!</button></a>
+
+    <h1>Forms</h1>
+
+    <form>
+      <input />
+    </form>
+
+    <h2>Inputs:</h2>
+
+    <h3>Inputs:</h3>
+    <form action="">
+      <label>Username: <input type="text" /> </label>
+      <label>Password: <input type="password" /> </label>
+
+      <input type="button" />
+      <input type="checkbox" />
+      <input type="color" />
+      <input type="date" />
+      <input type="datetime-local" />
+      <input type="email" />
+      <input type="file" />
+      <input type="hidden" />
+      <input type="image" />
+      <input type="month" />
+      <input type="number" />
+      <input type="password" />
+      <input type="radio" />
+      <input type="range" />
+      <input type="reset" />
+      <input type="search" />
+      <input type="submit" />
+      <input type="tel" />
+      <input type="text" />
+      <input type="time" />
+      <input type="url" />
+      <input type="week" />
+    </form>
+
+    <hr />
+    <br />
+
+    <h3>Radio buttons</h3>
+    <form action="">
+      <input type="radio" name="gender" id="male" />
+      <label for="male">Male</label>
+      <input type="radio" name="gender" id="female" />
+      <label for="female">Female</label>
+    </form>
+
+    <hr />
+
+    <h3>Checkboxes</h3>
+    <form>
+      <input type="checkbox" name="sports" id="soccer" />
+      <label for="soccer">Soccer</label>
+      <input type="checkbox" name="sports" id="cricket" />
+      <label for="cricket">Cricket</label>
+      <input type="checkbox" name="sports" id="baseball" />
+      <label for="baseball">Baseball</label>
+    </form>
+
+    <h3>Textarea</h3>
+    <form action="">
+      <label for="address">Address:</label>
+      <textarea rows="3" cols="30" name="address" id="address"></textarea>
+    </form>
+
+    <h3>Select box:</h3>
+    <form action="">
+      <label for="multiple-city">multiple-city:</label>
+      <select name="multiple-city" id="multiple-city" multiple>
+        <option value="sydney">Sydney</option>
+        <option value="melbourne">Melbourne</option>
+        <option value="cromwell">Cromwell</option>
+      </select>
+    </form>
+    <form action="">
+      <label for="city">City:</label>
+      <select name="city" id="city">
+        <option value="sydney">Sydney</option>
+        <option value="melbourne">Melbourne</option>
+        <option value="cromwell">Cromwell</option>
+      </select>
+    </form>
+
+    <h3>Submit/reset</h3>
+
+    <form action="action.php">
+      <label for="first-name">First name:</label>
+      <input type="text" name="first-name" id="first-name" />
+      <input type="submit" value="Submit" />
+      <input type="reset" value="Back to default" />
+    </form>
+  </body>
+</html>
