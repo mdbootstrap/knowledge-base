@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap 5 Crash Course</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css" />
+  </head>
+  <body class="py-5">
+    <div class="container">
+      <div>
+        <h2>Cards</h2>
+
+        <p>Card size controlled by styles</p>
+        <div class="card" style="width: 18rem">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum
+            unde incidunt nobis doloremque exercitationem nihil accusantium
+            voluptatibus? Doloribus optio doloremque nihil veritatis, magni,
+            blanditiis modi dicta temporibus voluptates suscipit ab.
+          </div>
+        </div>
+      </div>
+      <div class="my-5">
+        <h2>Card size controlled by bootstrah2 grid:</h2>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum unde incidunt nobis doloremque exercitationem nihil
+                accusantium voluptatibus? Doloribus optio doloremque nihil
+                veritatis, magni, blanditiis modi dicta temporibus voluptates
+                suscipit ab.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h2>Card with image:</h2>
+
+          <div class="card my-3" style="width: 18rem">
+            <img
+              class="card-img-top"
+              src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+              alt=""
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ut
+                dolore quia officia earum nemo libero, culpa neque error!
+                Provident, asperiores itaque. Ipsam molestiae deserunt quo. Id
+                pariatur repellat aperiam.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h2>Horizontal image card:</h2>
+
+          <div class="card mb-3" style="max-width: 540px">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img
+                  class="img-fluid"
+                  src="https://images.unsplash.com/photo-1591192617272-64be39d91882?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=940&q=80"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">
+                    This is a wider card with supporting text below as a natural
+                    lead-in to additional content. This content is a little bit
+                    longer.
+                  </p>
+                  <p class="card-text">
+                    <small class="text-muted">Last updated 3 mins ago</small>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <h2>Card with header and footer:</h2>
+
+          <div class="card my-3" style="width: 18rem">
+            <div class="card-header">Featured</div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">
+                With supporting text below as a natural lead-in to additional
+                content.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer">Card footer</div>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <h2>Card colors:</h2>
+
+          <div class="card text-white bg-primary mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div
+            class="card text-white bg-secondary mb-3"
+            style="max-width: 18rem"
+          >
+            <div class="card-header">Header</div>
+            <div class="card-body">
+              <h5 class="card-title">Secondary card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="my-5">
+          <h2>Card borders:</h2>
+
+          <div class="card border-primary mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-primary">
+              <h5 class="card-title">Primary card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card border-secondary mb-3" style="max-width: 18rem">
+            <div class="card-header">Header</div>
+            <div class="card-body text-secondary">
+              <h5 class="card-title">Secondary card title</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="my-5">
+          <h2>Card groups:</h2>
+
+          <div class="card-group my-3">
+            <div class="card">
+              <img
+                src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <img
+                src="https://mdbootstrap.com/img/Marketing/mdb-press-pack/mdb-dark.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This card has even longer
+                  content than the first to show that equal height action.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
