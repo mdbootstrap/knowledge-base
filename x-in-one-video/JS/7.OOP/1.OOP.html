@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function createNewPerson(name) {
+        const obj = {};
+        obj.name = name;
+        obj.greeting = function () {
+          alert("Hi! I'm " + obj.name + ".");
+        };
+        return obj;
+      }
+
+      const salva = createNewPerson("Salva");
+      salva.name;
+      salva.greeting();
+
+      function Person(name) {
+        this.name = name;
+        this.greeting = function () {
+          alert("Hi! I'm " + this.name + ".");
+        };
+      }
+
+      let person1 = new Person("Bob");
+      let person2 = new Person("Sarah");
+
+      person1.name;
+      person1.greeting();
+      person2.name;
+      person2.greeting();
+    </script>
+  </body>
+</html>

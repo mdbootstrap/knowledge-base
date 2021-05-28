@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Whole-script strict mode syntax
+      "use strict";
+      let v = "Hi! I'm a strict mode script!";
+      const PI = 3.14;
+      let camelCaseNames = "thisIsExample";
+
+      function alsoUseCamelCase() {
+        let a = 5; //use indentations
+        //  Put the opening bracket at the end of the first line.
+        //  Use one space before the opening bracket.
+        //  Put the closing bracket on a new line, without leading spaces.
+        //  Do not end a complex statement with a semicolon.
+      }
+
+      // Assuming no global variable mistypeVariable exists
+      mistypeVariable = 17; // this line throws a ReferenceError due to the
+      // misspelling of variable
+
+      // Assignment to a non-writable global
+      let undefined = 5; // throws a TypeError
+      let Infinity = 5; // throws a TypeError
+
+      function strict() {
+        // Function-level strict mode syntax
+        "use strict";
+        function nested() {
+          return "And so am I!";
+        }
+        return "Hi!  I'm a strict mode function!  " + nested();
+      }
+      function notStrict() {
+        return "I'm not strict.";
+      }
+
+      function sum(a, a, c) {
+        // !!! syntax error
+        "use strict";
+        return a + a + c; // wrong if this code ran
+      }
+    </script>
+  </body>
+</html>

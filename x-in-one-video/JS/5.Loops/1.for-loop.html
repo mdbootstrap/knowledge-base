@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      for (i = 0; i < 5; i++) {
+        console.log("The number is " + i);
+      }
+
+      let cars = new Array("Saab", "Volvo", "BMW");
+
+      //Arrays
+      for (i = 0; i < cars.length; i++) {
+        console.log(cars[i]);
+      }
+
+      //for - loops through a block of code a number of times
+      // for/in - loops through the properties of an object
+      // for/of - loops through the values of an iterable object
+
+      //The for...in statement iterates over all enumerable properties of an object that are keyed by strings (ignoring ones keyed by Symbols), including inherited enumerable properties.
+
+      const object = { a: 1, b: 2, c: 3 };
+
+      for (const property in object) {
+        console.log(`${property}: ${object[property]}`);
+      }
+
+      // expected output:
+      // "a: 1"
+      // "b: 2"
+      // "c: 3"
+    </script>
+  </body>
+</html>

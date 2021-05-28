@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function setCookie(cname, cvalue, exdays) {
+        var d = new Date();
+        d.setTime(d.getTime() + exdays * 24 * 60 * 60 * 1000);
+        var expires = "expires=" + d.toUTCString();
+        document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+      }
+
+      function getCookie(cname) {
+        var name = cname + "=";
+        var decodedCookie = decodeURIComponent(document.cookie);
+        var ca = decodedCookie.split(";");
+        for (var i = 0; i < ca.length; i++) {
+          var c = ca[i];
+          while (c.charAt(0) == " ") {
+            c = c.substring(1);
+          }
+          if (c.indexOf(name) == 0) {
+            return c.substring(name.length, c.length);
+          }
+        }
+        return "";
+      }
+
+      function deleteCookie(cname) {
+        document.cookie =
+          cname + "=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+      }
+
+      setCookie("user", "dawid", 180);
+      console.log(getCookie("user"));
+      deleteCookie("user");
+
+      //Local storage
+
+      //Cookies give you a limit of 4096 bytes (4095, actually) — it's per cookie. Local Storage is as big as 5MB per domain — SO Question also mentions it.
+      window.localStorage.setItem("name", "Obaseki Nosa");
+      console.log(window.localStorage.getItem("name"));
+      window.localStorage.removeItem("name");
+    </script>
+  </body>
+</html>

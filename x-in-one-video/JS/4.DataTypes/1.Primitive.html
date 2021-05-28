@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let a = 5.6;
+      let b = "5";
+      let s = "Some text";
+      //length() , toUpperCase(), .toLowerCase(), substring(x,y), .split("x")
+      let c = true;
+      let d = null;
+      let f = undefined;
+      let g = new Date();
+      let sym1 = Symbol();
+      let sym2 = Symbol("foo");
+      let sym3 = Symbol("foo");
+      //Symbol is a built-in object whose constructor returns a symbol primitive — also called a Symbol value or just a Symbol — that’s guaranteed to be unique
+      Symbol("foo") === Symbol("foo"); // false
+
+      //Map The Map object holds key-value pairs and remembers the original insertion order of the keys. Any value (both objects and primitive values) may be used as either a key or a value.
+
+      let contacts = new Map();
+      contacts.set("Jessie", {
+        phone: "213-555-1234",
+        address: "123 N 1st Ave",
+      });
+      contacts.has("Jessie"); // true
+      contacts.get("Hilary"); // undefined
+      contacts.set("Hilary", {
+        phone: "617-555-4321",
+        address: "321 S 2nd St",
+      });
+      contacts.get("Jessie"); // {phone: "213-555-1234", address: "123 N 1st Ave"}
+      contacts.delete("Raymond"); // false
+      contacts.delete("Jessie"); // true
+      console.log(contacts.size); // 1
+
+      //Others BigInt, Set, Map, WeakSet, Wekmap
+    </script>
+  </body>
+</html>

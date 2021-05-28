@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="myText">Paragraph</p>
+    <input name="name" type="text" id="name" />
+
+    <script>
+      //   result = window.prompt("Whats your age?");
+      //   console.log(result);
+
+      //   ok = confirm("Press a button");
+      //   console.log(ok);
+
+      const myText = document.getElementById("myText");
+      console.log(myText.innerHTML);
+
+      window.onload = function () {
+        const name = document.getElementById("name");
+
+        name.addEventListener("keydown", (e) => {
+          console.log(name.value);
+        });
+      };
+    </script>
+  </body>
+</html>

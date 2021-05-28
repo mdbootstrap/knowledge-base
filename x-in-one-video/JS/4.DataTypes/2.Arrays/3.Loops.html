@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+      fruits.forEach(myFunction);
+
+      function myFunction(value, index, array) {
+        console.log(value, index, array);
+      }
+
+      //         Array.map()
+      //   The map() method creates a new array by performing a function on each array element.
+      //   The map() method does not execute the function for array elements without values.
+      //   The map() method does not change the original array.
+
+      fruits.map(myFunction);
+
+      // The filter() method creates a new array with array elements that passes a test.
+
+      var numbers = [45, 4, 9, 16, 25];
+      var over18 = numbers.filter(myFunction2);
+
+      function myFunction2(value, index, array) {
+        return value > 18;
+      }
+
+      //   The some() method check if some array values pass a test.
+
+      //   The every() method check if all array values pass a test.
+
+      //   The find() method returns the value of the first array element that passes a test function.
+      //
+    </script>
+  </body>
+</html>

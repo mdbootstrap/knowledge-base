@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function greet() {
+        console.log("Hello");
+      }
+
+      greet();
+
+      function power(a) {
+        return a * a; // The function returns the product of p1 and p2
+      }
+
+      console.log(power(3));
+
+      //Anonymous
+
+      // let show = function () {
+      //   console.log("Anonymous function");
+      // };
+
+      //show();
+
+      //Hoisting
+
+      //Use as argument
+      setTimeout(function () {
+        console.log("Execute later after 1 second");
+      }, 1000);
+
+      //ES6 introduced arrow function expression that provides a shorthand for declaring anonymous functions:
+
+      // let show = function () {
+      //   console.log("Anonymous function");
+      // };
+
+      // show();
+
+      let show = () => console.log("Anonymous function");
+      show();
+
+      // let add = function (a, b) {
+      //   return a + b;
+      // };
+
+      let add = (a, b) => a + b;
+    </script>
+  </body>
+</html>

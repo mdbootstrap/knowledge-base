@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // JavaScript Object Notation (JSON)
+
+      myJSON = {
+        squadName: "Super hero squad",
+        homeTown: "Metro City",
+        formed: 2016,
+        secretBase: "Super tower",
+        active: true,
+        members: [
+          {
+            name: "Molecule Man",
+            age: 29,
+            secretIdentity: "Dan Jukes",
+            powers: ["Radiation resistance", "Turning tiny", "Radiation blast"],
+          },
+          {
+            name: "Madame Uppercut",
+            age: 39,
+            secretIdentity: "Jane Wilson",
+            powers: [
+              "Million tonne punch",
+              "Damage resistance",
+              "Superhuman reflexes",
+            ],
+          },
+          {
+            name: "Eternal Flame",
+            age: 1000000,
+            secretIdentity: "Unknown",
+            powers: [
+              "Immortality",
+              "Heat Immunity",
+              "Inferno",
+              "Teleportation",
+              "Interdimensional travel",
+            ],
+          },
+        ],
+      };
+
+      let array = [
+        {
+          name: "Molecule Man",
+          age: 29,
+          secretIdentity: "Dan Jukes",
+          powers: ["Radiation resistance", "Turning tiny", "Radiation blast"],
+        },
+        {
+          name: "Madame Uppercut",
+          age: 39,
+          secretIdentity: "Jane Wilson",
+          powers: [
+            "Million tonne punch",
+            "Damage resistance",
+            "Superhuman reflexes",
+          ],
+        },
+      ];
+
+      //JSON PARSE
+
+      //The JSON object, available in all modern browsers, has two useful methods to deal with JSON-formatted content: parse and stringify.
+      // JSON.parse() takes a JSON string and transforms it into a JavaScript object.
+      // JSON.stringify() takes a JavaScript object and transforms it into a JSON string.
+
+      const myObj = {
+        name: "Skip",
+        age: 2,
+        favoriteFood: "Steak",
+      };
+
+      const myObjStr = JSON.stringify(myObj);
+
+      console.log(myObjStr);
+      // "{"name":"Sammy","age":6,"favoriteFood":"Tofu"}"
+
+      console.log(JSON.parse(myObjStr));
+      // Object {name:"Sammy",age:6,favoriteFood:"Tofu"}
+    </script>
+  </body>
+</html>
