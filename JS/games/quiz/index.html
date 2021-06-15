@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Material Design for Bootstrap</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    />
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+    <div class="container my-5">
+      <div id="intro">
+        <div class="counter">
+          <p class="prefix">Question:</p>
+          <h1 id="counter">1/10</h1>
+        </div>
+        <div class="score">
+          <p class="prefix">Score:</p>
+          <h1 id="score">3</h1>
+        </div>
+      </div>
+      <div class="question-holder row">
+        <div class="col-12">
+          <h1 id="question">What is the answer to this question?</h1>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">A</p>
+            <p class="answer-text" data-answer="a">Answer A</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">B</p>
+            <p class="answer-text" data-answer="b">Answer B</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">C</p>
+            <p class="answer-text" data-answer="c">Answer B</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="answer-container card">
+            <p class="answer-prefix">D</p>
+            <p class="answer-text" data-answer="d">Answer D</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="endGameModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Game ended</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-mdb-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body" id="modal-body">...</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-mdb-dismiss="modal"
+            >
+              Close
+            </button>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-mdb-dismiss="modal"
+              id="restart"
+            >
+              Restart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
