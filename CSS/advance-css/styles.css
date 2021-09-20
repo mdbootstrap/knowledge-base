@@ -1,0 +1,115 @@
+/* 1. Add a mask */
+
+img {
+  width: 400px;
+  -webkit-mask-image: url(mask-image.png);
+  mask-image: url(http://tympanus.net/codrops-playground/assets/images/cssref/properties/mask-image/mask-image.png);
+  -webkit-mask-position: center center;
+  mask-position: center center;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
+
+  /* -webkit-mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+  mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+
+/* 02. Counters  */
+/* First   */
+body {
+  counter-reset: section; /* Set a counter named 'section', and its initial value is 0. */
+}
+
+h3::before {
+  counter-increment: section; /* Increment the value of section counter by 1 */
+  content: "Section " counter(section) ": "; /* Display the word 'Section ', the value of 
+                                                   section counter, and a colon before the content
+                                                   of each h3 */
+}
+
+/* 02. Second  */
+
+body {
+  counter-reset: heading;
+}
+
+h1:before {
+  content: counter(heading) ") ";
+  counter-increment: heading;
+}
+
+h1 {
+  counter-reset: subheading;
+}
+
+h2:before {
+  content: counter(heading) "." counter(subheading) ") ";
+  counter-increment: subheading;
+}
+
+/* 02. Third  */
+
+ol {
+  counter-reset: counter; /* Creates a new instance of the
+                                            section counter with each ol
+                                            element */
+  list-style-type: none;
+}
+
+li::before {
+  counter-increment: counter; /* Increments only this instance
+                                            of the section counter */
+  content: counters(counter, ".") " "; /* Combines the values of all instances
+                                            of the section counter, separated
+                                            by a period */
+}
+
+/* 3 Like a storybook */
+
+p.intro:first-letter {
+  font-size: 100px;
+  display: block;
+  float: left;
+  line-height: 0.5;
+  margin: 15px 15px 10px 0;
+}
+body {
+  font-size: 1rem;
+  height: 100%;
+  margin: auto;
+  font-family: cormorant infant;
+}
+
+/* 4. * + selector */
+
+*.warning {
+  color: red;
+}
+
+*#maincontent {
+  border: 1px solid blue;
+}
+
+.floating {
+  float: left;
+}
+
+/* automatically clear the next sibling after a floating element */
+.floating + * {
+  clear: left;
+}
+
+/* 5. Mandatory fields */
+
+:required {
+  border: 1px solid pink;
+}
+
+:optional {
+  border: 1px solid skyblue;
+}
+
+/* 6. . Change the Text Selection colour */
+
+::selection {
+  background-color: #73248b;
+}
