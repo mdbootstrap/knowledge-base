@@ -1,0 +1,8 @@
+{
+  "backend": {
+    "platform": "php7.4"
+  },
+  "meta": {
+    "type": "backend"
+  }
+}
