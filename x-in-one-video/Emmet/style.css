@@ -1,0 +1,120 @@
+p {
+  /* m10 */
+  margin: 10px;
+
+  /* m10-20  */
+  margin: 10px 20px;
+
+  /* p-10--20 */
+  padding: -10px -20px;
+}
+
+div {
+  /* ### Units ### */
+  /* m10 */
+  margin: 10px;
+
+  /* m20p  */
+  margin: 20%;
+
+  /* w100p */
+  width: 100%;
+
+  /* fz10e */
+  font-size: 10em;
+
+  /* fz10r */
+  font-size: 10rem;
+}
+
+span {
+  /* c#1 */
+  color: #111;
+
+  /* bgc#a1 */
+  background-color: #a1a1a1;
+
+  /* #c321 */
+  color: #321;
+}
+
+p {
+  /* pos */
+  position: relative;
+
+  /* posa */
+  position: absolute;
+
+  position: fixed;
+
+  /* t l r b  */
+  top: 10px;
+  left: 20%;
+  right: 30px;
+  bottom: 40%;
+  margin-top: 10%;
+  /* w / h  */
+
+  width: 100px;
+  height: 50%;
+
+  /* p / pl / m / mt */
+  padding: 10px;
+  padding-left: 20px;
+  margin: 30px;
+  margin-top: 40px;
+  margin-bottom: -50px;
+
+  /* db / dib / df  */
+
+  display: block;
+  display: inline-block;
+  display: flex;
+
+  /* ff / ffss */
+  font-family: serif;
+  font-family: sans-serif;
+
+  /* fz  */
+  font-size: 5px;
+
+  /* fwb  */
+  font-weight: bold;
+
+  /* fwl  */
+  font-weight: lighter;
+
+  /* tac / tar */
+
+  text-align: center;
+  text-align: right;
+
+  /* tt  */
+  text-transform: uppercase;
+
+  /* bgc / bgp  / bgs  */
+  background-color: #fff;
+  background-position: 0 0;
+  background-size: contain;
+
+  /* c  */
+  color: #000;
+
+  /* ts    */
+  text-shadow: hoff voff blur #000;
+
+  /* bb  */
+  border-bottom: 1px solid #000;
+
+  /* borr  */
+  border-radius: 5px;
+
+  /* o  */
+  overflow: hidden;
+
+  /* z */
+  z-index: 1;
+
+  /* cu   */
+  cursor: pointer;
+}
