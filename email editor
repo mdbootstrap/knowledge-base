@@ -1,0 +1,1195 @@
+1 <!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+2 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office">
+3 
+4 <head>
+5 <!--[if gte mso 9]>
+6 <xml>
+7 <o:OfficeDocumentSettings>
+8 <o:AllowPNG/>
+9 <o:PixelsPerInch>96</o:PixelsPerInch>
+10 </o:OfficeDocumentSettings>
+11 </xml>
+12 <![endif]-->
+13 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+14 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+15 <meta name="x-apple-disable-message-reformatting">
+16 <!--[if !mso]><!-->
+17 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+18 <!--<![endif]-->
+19 <title></title>
+20 
+21 <style type="text/css">
+22 table,
+23 td {
+24 color: #000000;
+25 }
+26 
+27 a {
+28 color: #0000ee;
+29 text-decoration: underline;
+30 }
+31 
+32 @media only screen and (min-width: 620px) {
+33 .u-row {
+34 width: 600px !important;
+35 }
+36 .u-row .u-col {
+37 vertical-align: top;
+38 }
+39 .u-row .u-col-100 {
+40 width: 600px !important;
+41 }
+42 }
+43 
+44 @media (max-width: 620px) {
+45 .u-row-container {
+46 max-width: 100% !important;
+47 padding-left: 0px !important;
+48 padding-right: 0px !important;
+49 }
+50 .u-row .u-col {
+51 min-width: 320px !important;
+52 max-width: 100% !important;
+53 display: block !important;
+54 }
+55 .u-row {
+56 width: calc(100% - 40px) !important;
+57 }
+58 .u-col {
+59 width: 100% !important;
+60 }
+61 .u-col>div {
+62 margin: 0 auto;
+63 }
+64 }
+65 
+66 body {
+67 margin: 0;
+68 padding: 0;
+69 }
+70 
+71 table,
+72 tr,
+73 td {
+74 vertical-align: top;
+75 border-collapse: collapse;
+76 }
+77 
+78 p {
+79 margin: 0;
+80 }
+81 
+82 .ie-container table,
+83 .mso-container table {
+84 table-layout: fixed;
+85 }
+86 
+87 * {
+88 line-height: inherit;
+89 }
+90 
+91 a[x-apple-data-detectors='true'] {
+92 color: inherit !important;
+93 text-decoration: none !important;
+94 }
+95 </style>
+96 
+97 
+98 
+99 <!--[if !mso]><!-->
+100 <link href="https://fonts.googleapis.com/css?family=Cabin:400,700" rel="stylesheet"
+type="text/css">
+101 <!--<![endif]-->
+102 
+103 </head>
+104 
+105 <body class="clean-body u_body" style="margin: 0;padding: 0;-webkit-text-size-adjust: 
+100%;background-color: #f9f9f9;color: #000000">
+106 <!--[if IE]><div class="ie-container"><![endif]-->
+107 <!--[if mso]><div class="mso-container"><![endif]-->
+108 <table style="border-collapse: collapse;table-layout: fixed;border-spacing: 
+0;mso-table-lspace: 0pt;mso-table-rspace: 0pt;vertical-align: top;min-width: 
+320px;Margin: 0 auto;background-color: #f9f9f9;width:100%" cellpadding="0"
+cellspacing="0">
+109 <tbody>
+110 <tr style="vertical-align: top">
+111 <td style="word-break: break-word;border-collapse: collapse 
+!important;vertical-align: top">
+112 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td align="center" style="background-color: 
+#f9f9f9;"><![endif]-->
+113 
+114 
+115 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+116 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: transparent;">
+117 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+118 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: 
+transparent;"><![endif]-->
+119 
+120 <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 
+600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px 
+solid transparent;border-right: 0px solid transparent;border-bottom: 
+0px solid transparent;" valign="top"><![endif]-->
+121 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+122 <div style="width: 100% !important;">
+123 <!--[if (!mso)&(!IE)]><!-->
+124 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+125 <!--<![endif]-->
+126 
+127 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+128 <tbody>
+129 <tr>
+130 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:10px;font-family:'Cabin',sans-serif;" align="left">
+131 
+132 <div style="color: #afb0c7; line-height: 170%; 
+text-align: center; word-wrap: break-word;">
+133 <p style="font-size: 14px; line-height: 
+170%;">Studymaterialhub1.myshopify.com</p>
+134 </div>
+135 
+136 </td>
+137 </tr>
+138 </tbody>
+139 </table>
+140 
+141 <!--[if (!mso)&(!IE)]><!-->
+142 </div>
+143 <!--<![endif]-->
+144 </div>
+145 </div>
+146 <!--[if (mso)|(IE)]></td><![endif]-->
+147 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+148 </div>
+149 </div>
+150 </div>
+151 
+152 
+153 
+154 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+155 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: #ffffff;">
+156 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+157 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+158 
+159 <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 
+600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px 
+solid transparent;border-right: 0px solid transparent;border-bottom: 
+0px solid transparent;" valign="top"><![endif]-->
+160 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+161 <div style="width: 100% !important;">
+162 <!--[if (!mso)&(!IE)]><!-->
+163 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+164 <!--<![endif]-->
+165 
+166 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+167 <tbody>
+168 <tr>
+169 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:20px;font-family:'Cabin',sans-serif;" align="left">
+170 
+171 <table width="100%" cellpadding="0" cellspacing="0"
+border="0">
+172 <tr>
+173 <td style="padding-right: 0px;padding-left: 0px;"
+align="center">
+174 
+175 <img align="center" border="0"
+src="https://s3.amazonaws.com/unroll-images-productio
+n/projects%2F41574%2F1633788024114-137598.jpg"
+alt="" title="" style="outline: 
+none;text-decoration: none;-ms-interpolation-mode: 
+bicubic;clear: both;display: inline-block 
+!important;border: none;height: auto;float: 
+none;width: 100%;max-width: 560px;"
+176 width="560" />
+177 
+178 </td>
+179 </tr>
+180 </table>
+181 
+182 </td>
+183 </tr>
+184 </tbody>
+185 </table>
+186 
+187 <!--[if (!mso)&(!IE)]><!-->
+188 </div>
+189 <!--<![endif]-->
+190 </div>
+191 </div>
+192 <!--[if (mso)|(IE)]></td><![endif]-->
+193 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+194 </div>
+195 </div>
+196 </div>
+197 
+198 
+199 
+200 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+201 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: #003399;">
+202 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+203 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: #003399;"><![endif]-->
+204 
+205 <!--[if (mso)|(IE)]><td align="center" width="600" 
+style="background-color: #bd0e0e;width: 600px;padding: 0px;border-top: 
+0px solid transparent;border-left: 0px solid transparent;border-right: 
+0px solid transparent;border-bottom: 0px solid transparent;" 
+valign="top"><![endif]-->
+206 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+207 <div style="background-color: #bd0e0e;width: 100% !important;">
+208 <!--[if (!mso)&(!IE)]><!-->
+209 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+210 <!--<![endif]-->
+211 
+212 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+213 <tbody>
+214 <tr>
+215 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:40px 10px 10px;font-family:'Cabin',sans-serif;"
+align="left">
+216 
+217 <table width="100%" cellpadding="0" cellspacing="0"
+border="0">
+218 <tr>
+219 <td style="padding-right: 0px;padding-left: 0px;"
+align="center">
+220 
+221 <img align="center" border="0"
+src="https://cdn.templates.unlayer.com/assets/1597218
+650916-xxxxc.png" alt="Image" title="Image"
+style="outline: none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: inline-block !important;border: 
+none;height: auto;float: none;width: 26%;max-width: 
+150.8px;"
+222 width="150.8" />
+223 
+224 </td>
+225 </tr>
+226 </table>
+227 
+228 </td>
+229 </tr>
+230 </tbody>
+231 </table>
+232 
+233 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+234 <tbody>
+235 <tr>
+236 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:10px;font-family:'Cabin',sans-serif;" align="left">
+237 
+238 <div style="color: #e5eaf5; line-height: 140%; 
+text-align: center; word-wrap: break-word;">
+239 <p style="font-size: 14px; line-height: 
+140%;"><strong>T H A N K S&nbsp; &nbsp;F O R&nbsp;
+&nbsp;S I G N I N G&nbsp; &nbsp;U P !</strong></p>
+240 </div>
+241 
+242 </td>
+243 </tr>
+244 </tbody>
+245 </table>
+246 
+247 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+248 <tbody>
+249 <tr>
+250 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:0px 10px 31px;font-family:'Cabin',sans-serif;" align="left">
+251 
+252 <div style="color: #e5eaf5; line-height: 140%; 
+text-align: center; word-wrap: break-word;">
+253 <p style="font-size: 14px; line-height: 140%;"><span
+style="font-size: 28px; line-height: 
+39.2px;"><strong><span style="line-height: 39.2px; 
+font-size: 28px;">Verify Your E-mail Address 
+</span></strong>
+254 </span>
+255 </p>
+256 </div>
+257 
+258 </td>
+259 </tr>
+260 </tbody>
+261 </table>
+262 
+263 <!--[if (!mso)&(!IE)]><!-->
+264 </div>
+265 <!--<![endif]-->
+266 </div>
+267 </div>
+268 <!--[if (mso)|(IE)]></td><![endif]-->
+269 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+270 </div>
+271 </div>
+272 </div>
+273 
+274 
+275 
+276 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+277 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: #ffffff;">
+278 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+279 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: #ffffff;"><![endif]-->
+280 
+281 <!--[if (mso)|(IE)]><td align="center" width="600" 
+style="background-color: #16276d;width: 600px;padding: 0px;border-top: 
+0px solid transparent;border-left: 0px solid transparent;border-right: 
+0px solid transparent;border-bottom: 0px solid transparent;" 
+valign="top"><![endif]-->
+282 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+283 <div style="background-color: #16276d;width: 100% !important;">
+284 <!--[if (!mso)&(!IE)]><!-->
+285 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+286 <!--<![endif]-->
+287 
+288 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+289 <tbody>
+290 <tr>
+291 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:33px 55px;font-family:'Cabin',sans-serif;" align="left">
+292 
+293 <div style="line-height: 160%; text-align: center; 
+word-wrap: break-word;">
+294 <p style="font-size: 14px; line-height: 160%;"><span
+style="font-size: 22px; line-height: 35.2px;">Hi, 
+</span></p>
+295 <p style="font-size: 14px; line-height: 160%;"><span
+style="font-size: 18px; line-height: 28.8px;">You're 
+almost ready to get started. Please click on the button 
+below to verify your email address and enjoy exclusive 
+cleaning services with us! </span></p>
+296 </div>
+297 
+298 </td>
+299 </tr>
+300 </tbody>
+301 </table>
+302 
+303 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+304 <tbody>
+305 <tr>
+306 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:10px;font-family:'Cabin',sans-serif;" align="left">
+307 
+308 <div align="center">
+309 <!--[if mso]><table width="100%" cellpadding="0" 
+cellspacing="0" border="0" style="border-spacing: 0; 
+border-collapse: collapse; mso-table-lspace:0pt; 
+mso-table-rspace:0pt;font-family:'Cabin',sans-serif;"><tr
+><td style="font-family:'Cabin',sans-serif;" 
+align="center"><v:roundrect 
+xmlns:v="urn:schemas-microsoft-com:vml" 
+xmlns:w="urn:schemas-microsoft-com:office:word" href="" 
+style="height:46px; v-text-anchor:middle; width:234px;" 
+arcsize="8.5%" stroke="f" 
+fillcolor="#ff6600"><w:anchorlock/><center 
+style="color:#FFFFFF;font-family:'Cabin',sans-serif;"><![
+endif]-->
+310 <a href="" target="_blank" style="box-sizing: 
+border-box;display: 
+inline-block;font-family:'Cabin',sans-serif;text-decorati
+on: none;-webkit-text-size-adjust: none;text-align: 
+center;color: #FFFFFF; background-color: #ff6600; 
+border-radius: 4px;-webkit-border-radius: 4px; 
+-moz-border-radius: 4px; width:auto; max-width:100%; 
+overflow-wrap: break-word; word-break: break-word; 
+word-wrap:break-word; mso-border-alt: none;">
+311 <span style="display:block;padding:14px 44px 
+13px;line-height:120%;"><span style="font-size: 16px; 
+line-height: 19.2px;"><strong><span
+style="line-height: 19.2px; font-size: 16px;">VERIFY 
+YOUR EMAIL</span></strong>
+312 </span>
+313 </span>
+314 </a>
+315 <!--[if 
+mso]></center></v:roundrect></td></tr></table><![endif]--
+>
+316 </div>
+317 
+318 </td>
+319 </tr>
+320 </tbody>
+321 </table>
+322 
+323 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+324 <tbody>
+325 <tr>
+326 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:33px 55px 60px;font-family:'Cabin',sans-serif;"
+align="left">
+327 
+328 <div style="line-height: 160%; text-align: center; 
+word-wrap: break-word;">
+329 <p style="line-height: 160%; font-size: 14px;"><span
+style="font-size: 18px; line-height: 
+28.8px;">Thanks,</span></p>
+330 <p style="line-height: 160%; font-size: 14px;"><span
+style="font-size: 18px; line-height: 28.8px;">The 
+Company Team</span></p>
+331 </div>
+332 
+333 </td>
+334 </tr>
+335 </tbody>
+336 </table>
+337 
+338 <!--[if (!mso)&(!IE)]><!-->
+339 </div>
+340 <!--<![endif]-->
+341 </div>
+342 </div>
+343 <!--[if (mso)|(IE)]></td><![endif]-->
+344 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+345 </div>
+346 </div>
+347 </div>
+348 
+349 
+350 
+351 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+352 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: #e5eaf5;">
+353 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+354 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: #e5eaf5;"><![endif]-->
+355 
+356 <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 
+600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px 
+solid transparent;border-right: 0px solid transparent;border-bottom: 
+0px solid transparent;" valign="top"><![endif]-->
+357 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+358 <div style="width: 100% !important;">
+359 <!--[if (!mso)&(!IE)]><!-->
+360 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+361 <!--<![endif]-->
+362 
+363 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+364 <tbody>
+365 <tr>
+366 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:41px 55px 18px;font-family:'Cabin',sans-serif;"
+align="left">
+367 
+368 <div style="color: #e03e2d; line-height: 160%; 
+text-align: center; word-wrap: break-word;">
+369 <p style="font-size: 14px; line-height: 160%;"><span
+style="font-size: 20px; line-height: 32px;"><strong>Get 
+in touch</strong></span></p>
+370 <p style="font-size: 14px; line-height: 160%;"><span
+style="font-size: 16px; line-height: 25.6px; color: 
+#000000;">+918726685094</span></p>
+371 <p style="font-size: 14px; line-height: 160%;"><span
+style="font-size: 16px; line-height: 25.6px; color: 
+#000000;">Info@studymaterial.com</span></p>
+372 </div>
+373 
+374 </td>
+375 </tr>
+376 </tbody>
+377 </table>
+378 
+379 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+380 <tbody>
+381 <tr>
+382 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:10px 10px 33px;font-family:'Cabin',sans-serif;"
+align="left">
+383 
+384 <div align="center">
+385 <div style="display: table; max-width:489px;">
+386 <!--[if (mso)|(IE)]><table width="489" 
+cellpadding="0" cellspacing="0" border="0"><tr><td 
+style="border-collapse:collapse;" 
+align="center"><table width="100%" cellpadding="0" 
+cellspacing="0" border="0" 
+style="border-collapse:collapse; mso-table-lspace: 
+0pt;mso-table-rspace: 0pt; 
+width:489px;"><tr><![endif]-->
+387 
+388 
+389 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+390 <table align="left" border="0" cellspacing="0"
+cellpadding="0" width="32" height="32"
+style="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px">
+391 <tbody>
+392 <tr style="vertical-align: top">
+393 <td align="left" valign="middle"
+style="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top">
+394 <a href
+="https://facebook.com/"
+title
+="Facebook" target
+="_blank"
+>
+395 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/facebook.png" alt
+="Facebook"
+title
+="Facebook" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+396 </a>
+397 </td>
+398 </tr>
+399 </tbody>
+400 </table>
+401 <!--[if (mso)|(IE)]></td><![endif]-->
+402 
+403 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+404 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+405 <tbody>
+406 <tr style
+="vertical-align: top"
+>
+407 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+408 <a href
+="https://linkedin.com/"
+title
+="LinkedIn" target
+="_blank"
+>
+409 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/linkedin.png" alt
+="LinkedIn"
+title
+="LinkedIn" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+410 </a>
+411 </td>
+412 </tr>
+413 </tbody>
+414 </table>
+415 <!--[if (mso)|(IE)]></td><![endif]-->
+416 
+417 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+418 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+419 <tbody>
+420 <tr style
+="vertical-align: top"
+>
+421 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+422 <a href
+="https://instagram.com/sarpachup31"
+title
+="Instagram" target
+="_blank"
+>
+423 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/instagram.png" alt
+="Instagram"
+title
+="Instagram" width
+="32"
+style
+="outline: none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+424 </a>
+425 </td>
+426 </tr>
+427 </tbody>
+428 </table>
+429 <!--[if (mso)|(IE)]></td><![endif]-->
+430 
+431 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+432 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+433 <tbody>
+434 <tr style
+="vertical-align: top"
+>
+435 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+436 <a href
+="https://youtube.com/"
+title
+="YouTube" target
+="_blank"
+>
+437 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/youtube.png" alt
+="YouTube"
+title
+="YouTube" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+438 </a>
+439 </td>
+440 </tr>
+441 </tbody>
+442 </table>
+443 <!--[if (mso)|(IE)]></td><![endif]-->
+444 
+445 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+446 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+447 <tbody>
+448 <tr style
+="vertical-align: top"
+>
+449 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+450 <a href
+="https://email.com/nitinvermaup31"
+title
+="Email" target
+="_blank"
+>
+451 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/email.png" alt
+="Email"
+title
+="Email" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+452 </a>
+453 </td>
+454 </tr>
+455 </tbody>
+456 </table>
+457 <!--[if (mso)|(IE)]></td><![endif]-->
+458 
+459 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+460 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+461 <tbody>
+462 <tr style
+="vertical-align: top"
+>
+463 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+464 <a href
+="https://twitter.com/"
+title
+="Twitter" target
+="_blank"
+>
+465 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/twitter.png" alt
+="Twitter"
+title
+="Twitter" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+466 </a>
+467 </td>
+468 </tr>
+469 </tbody>
+470 </table>
+471 <!--[if (mso)|(IE)]></td><![endif]-->
+472 
+473 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+474 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+475 <tbody>
+476 <tr style
+="vertical-align: top"
+>
+477 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+478 <a href
+="https://snapchat.com/"
+title
+="Snapchat" target
+="_blank"
+>
+479 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/snapchat.png" alt
+="Snapchat"
+title
+="Snapchat" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+480 </a>
+481 </td>
+482 </tr>
+483 </tbody>
+484 </table>
+485 <!--[if (mso)|(IE)]></td><![endif]-->
+486 
+487 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+488 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+489 <tbody>
+490 <tr style
+="vertical-align: top"
+>
+491 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+492 <a href
+="https://whatsapp.com/"
+title
+="WhatsApp" target
+="_blank"
+>
+493 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/whatsapp.png" alt
+="WhatsApp"
+title
+="WhatsApp" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+494 </a>
+495 </td>
+496 </tr>
+497 </tbody>
+498 </table>
+499 <!--[if (mso)|(IE)]></td><![endif]-->
+500 
+501 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 17px;" valign="top"><![endif]-->
+502 <table align
+="left" border
+="0" cellspacing
+="0"
+cellpadding
+="0" width
+="32" height
+="32"
+style
+="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 17px"
+>
+503 <tbody>
+504 <tr style
+="vertical-align: top"
+>
+505 <td align
+="left" valign
+="middle"
+style
+="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top"
+>
+506 <a href
+="https://spotify.com/"
+title
+="Spotify" target
+="_blank"
+>
+507 <img
+src
+="https://cdn.tools.unlayer.com/social/ico
+ns/squared/spotify.png" alt
+="Spotify"
+title
+="Spotify" width
+="32" style
+="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important"
+>
+508 </a>
+509 </td>
+510 </tr>
+511 </tbody>
+512 </table>
+513 <!--[if (mso)|(IE)]></td><![endif]-->
+514 
+515 <!--[if (mso)|(IE)]><td width="32" style="width:32px; 
+padding-right: 0px;" valign="top"><![endif]-->
+516 <table align="left" border="0" cellspacing="0"
+cellpadding="0" width="32" height="32"
+style="border-collapse: collapse;table-layout: 
+fixed;border-spacing: 0;mso-table-lspace: 
+0pt;mso-table-rspace: 0pt;vertical-align: 
+top;margin-right: 0px">
+517 <tbody>
+518 <tr style="vertical-align: top">
+519 <td align="left" valign="middle"
+style="word-break: break-word;border-collapse: 
+collapse !important;vertical-align: top">
+520 <a href="https://telegram.org/"
+title="Telegram" target="_blank">
+521 <img
+src="https://cdn.tools.unlayer.com/social/ico
+ns/squared/telegram.png" alt="Telegram"
+title="Telegram" width="32" style="outline: 
+none;text-decoration: 
+none;-ms-interpolation-mode: bicubic;clear: 
+both;display: block !important;border: 
+none;height: auto;float: none;max-width: 
+32px !important">
+522 </a>
+523 </td>
+524 </tr>
+525 </tbody>
+526 </table>
+527 <!--[if (mso)|(IE)]></td><![endif]-->
+528 
+529 
+530 <!--[if 
+(mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+531 </div>
+532 </div>
+533 
+534 </td>
+535 </tr>
+536 </tbody>
+537 </table>
+538 
+539 <!--[if (!mso)&(!IE)]><!-->
+540 </div>
+541 <!--<![endif]-->
+542 </div>
+543 </div>
+544 <!--[if (mso)|(IE)]></td><![endif]-->
+545 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+546 </div>
+547 </div>
+548 </div>
+549 
+550 
+551 
+552 <div class="u-row-container" style="padding: 0px;background-color: 
+transparent">
+553 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 
+600px;overflow-wrap: break-word;word-wrap: break-word;word-break: 
+break-word;background-color: #003399;">
+554 <div style="border-collapse: collapse;display: table;width: 
+100%;background-color: transparent;">
+555 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" 
+border="0"><tr><td style="padding: 0px;background-color: transparent;" 
+align="center"><table cellpadding="0" cellspacing="0" border="0" 
+style="width:600px;"><tr style="background-color: #003399;"><![endif]-->
+556 
+557 <!--[if (mso)|(IE)]><td align="center" width="600" style="width: 
+600px;padding: 0px;border-top: 0px solid transparent;border-left: 0px 
+solid transparent;border-right: 0px solid transparent;border-bottom: 
+0px solid transparent;" valign="top"><![endif]-->
+558 <div class="u-col u-col-100" style="max-width: 320px;min-width: 
+600px;display: table-cell;vertical-align: top;">
+559 <div style="width: 100% !important;">
+560 <!--[if (!mso)&(!IE)]><!-->
+561 <div style="padding: 0px;border-top: 0px solid 
+transparent;border-left: 0px solid transparent;border-right: 0px 
+solid transparent;border-bottom: 0px solid transparent;">
+562 <!--<![endif]-->
+563 
+564 <table style="font-family:'Cabin',sans-serif;"
+role="presentation" cellpadding="0" cellspacing="0" width="100%"
+border="0">
+565 <tbody>
+566 <tr>
+567 <td
+style="overflow-wrap:break-word;word-break:break-word;padding
+:10px;font-family:'Cabin',sans-serif;" align="left">
+568 
+569 <div style="color: #fafafa; line-height: 180%; 
+text-align: center; word-wrap: break-word;">
+570 <p style="font-size: 14px; line-height: 180%;"><span
+style="font-size: 16px; line-height: 
+28.8px;">Copyrights &copy; Company All Rights 
+Reserved</span></p>
+571 </div>
+572 
+573 </td>
+574 </tr>
+575 </tbody>
+576 </table>
+577 
+578 <!--[if (!mso)&(!IE)]><!-->
+579 </div>
+580 <!--<![endif]-->
+581 </div>
+582 </div>
+583 <!--[if (mso)|(IE)]></td><![endif]-->
+584 <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
+585 </div>
+586 </div>
+587 </div>
+588 
+589 
+590 <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
+591 </td>
+592 </tr>
+593 </tbody>
+594 </table>
+595 <!--[if mso]></div><![endif]-->
+596 <!--[if IE]></div><![endif]-->
+597 </body>
+598 
+599 </html>
