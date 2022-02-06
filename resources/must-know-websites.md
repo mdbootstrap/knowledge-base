@@ -24,6 +24,7 @@ Learning
 [https://learngitbranching.js.org/](https://learngitbranching.js.org/)  
 [https://www.freecodecamp.org/](https://www.freecodecamp.org/)  
 [https://www.youtube.com/](https://www.youtube.com/)  
+[https://www.w3schools.com/](https://www.w3schools.com/)
 [https://www.udemy.com/](https://www.udemy.com/)  
 [https://www.sql-ex.ru/](https://www.sql-ex.ru/)  
 
