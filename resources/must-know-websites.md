@@ -31,6 +31,12 @@ Learning
 Design:  
 [https://www.awwwards.com/](https://www.awwwards.com/)  
 [https://dribbble.com/](https://dribbble.com/)
+[https://responsively.app/](https://responsively.app/)
+
+Performance:
+[https://pagespeed.web.dev/](https://pagespeed.web.dev/)
+[https://yellowlab.tools/](https://yellowlab.tools/)
+[https://www.dareboost.com/](https://www.dareboost.com/)
 
 Misc  
 [https://www.google.com/](https://www.google.com/)
