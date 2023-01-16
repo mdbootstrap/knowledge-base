@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body class="bg-secondary">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="card">
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6 border rounded">
+                  <textarea id="from-text" placeholder="Enter text"></textarea>
+                </div>
+                <div class="col-6 border rounded">
+                  <textarea
+                    readonly
+                    id="to-text"
+                    placeholder="Translation"
+                  ></textarea>
+                </div>
+
+                <div
+                  class="col-12 controls border rounded-2 p-3 d-flex align-items-center justify-content-between"
+                >
+                  <i id="from-read" class="fas fa-volume-up"></i>
+                  <i id="from-copy" class="far fa-copy"></i>
+
+                  <select id="from-select"></select>
+                  <i id="exchange" class="fas fa-exchange-alt"></i>
+                  <select id="to-select"></select>
+                  <i id="to-read" class="fas fa-volume-up"></i>
+                  <i id="to-copy" class="far fa-copy"></i>
+                </div>
+                <div class="col-12 text-center mt-3">
+                  <button id="translate" type="button" class="btn btn-primary">
+                    Translate
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="countries.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>

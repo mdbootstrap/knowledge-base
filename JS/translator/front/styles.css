@@ -1,0 +1,19 @@
+
+
+#from-text, #to-text{ 
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+textarea::placeholder{
+    color:rgba(46, 46, 46, 0.276);
+}
+
+.controls>i{
+    cursor: pointer;
+}
